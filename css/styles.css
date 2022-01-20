@@ -1,0 +1,80 @@
+/*h1 {
+  color: $red;
+}*/
+nav {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#f6ee08), to(#e353e3));
+  background: linear-gradient(to right, #f6ee08, #e353e3);
+}
+
+nav li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-right: 0px;
+}
+
+nav li a {
+  color: darkslategray;
+}
+
+nav li a span {
+  color: gray;
+}
+
+nav li ul {
+  background: -webkit-gradient(linear, right top, left top, from(#f6ee0872), to(#e353e372));
+  background: linear-gradient(to left, #f6ee0872, #e353e372);
+}
+
+nav li:nth-child(1) {
+  border-left: none;
+}
+
+@media (max-width: 991px) {
+  nav {
+    background: transparent;
+  }
+  nav li {
+    border: none;
+    padding-left: 25px;
+  }
+  nav li:last-child {
+    padding-bottom: 20px;
+  }
+  nav #Navbar {
+    background: -webkit-gradient(linear, left top, right bottom, from(#f6ee08), to(#e353e3));
+    background: linear-gradient(to bottom right, #f6ee08, #e353e3);
+    border-radius: 5%;
+  }
+}
+
+.logoPic {
+  max-width: 200px;
+  border-radius: 5%;
+}
+
+#searchForm button {
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+#searchForm input {
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+#mainCarousel {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mainCarousel img {
+  border: 10px gray outset;
+}
+
+#popCat {
+  background: green;
+}
+/*# sourceMappingURL=styles.css.map */
