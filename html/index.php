@@ -26,49 +26,51 @@
   </head>
   <body>
     <div class="container">
-      <!--Include the logo, search bar, and cart -->
-      <?php include "./logoBar.php"; ?>
-      <!-- Include the navigation bar -->
-      <?php include "./navBar.php"; ?>
+      <div class="row">
+        <!--Include the logo, search bar, and cart -->
+        <?php include "./logoBar.php"; ?>
+        <!-- Include the navigation bar -->
+        <?php include "./navBar.php"; ?>
+      </div>
       <!-- Eye-catching Carousel with Popular Categories -->
       <?php include "./carousel.php"; ?>
       <!--Add all of the categories with an image link to their pages -->
       <div class="row justify-content-center text-center">
         <div class="col-6 col-md-4 col-lg-2">
           <h2 class="col-12">Bullets</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Bullets and Things" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Bullets and Things" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Vibes</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Vibrators" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Vibrators" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Dildos</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Dildos" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Dildos" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Kegelers</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Kegelers" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Kegelers" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Kinky</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Foreplay and Kinky" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Foreplay and Kinky" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Bachelorette</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Bachelorette" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Bachelorette" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Anal</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Anal" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Anal" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Men</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Men" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Men" />
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Lubes</h2>
-          <img class="d-block w-100 col-12 mx-auto" src="../img/Explosion_Logo2.jpg" alt="Lubes and Cleaners" />
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../img/Explosion_Logo2.jpg" alt="Lubes and Cleaners" />
         </div>
       </div>
 
@@ -114,34 +116,10 @@
         </div>
       </div>
 
-      <footer >
-        <div class="row">
-          <h4>Our Mission</h4>
-          <h4>Who We Are</h4>
-          <h4>Disclaimer</h4>
-        </div>
-        <div class="row">
+      <hr />
 
-        </div>
-      </footer>
-
-      <div class="fonts">
-      <i class="fab fa-youtube"></i>
-      <i class="far fa-smile-wink"></i>
-      <i class="fas fa-shopping-cart"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fas fa-heartbeat"></i>
-      <i class="fas fa-grin-tongue-wink"></i>
-      <i class="fas fa-fighter-jet"></i>
-      <i class="fab fa-facebook-square"></i>
-      <i class="fas fa-cogs"></i>
-      <i class="fas fa-bullseye"></i>
-      </div>
-
-      <?php include "./addToCart.php"; ?>
-      <?php 
-      $paypalID = "QSJ667U7R4V5Y";
-      include "./addToCart.php"; ?>
+      <!-- Include the footer on each page -->
+      <?php include "./footer.php"; ?>
 
     </div>
     
