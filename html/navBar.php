@@ -1,5 +1,5 @@
     <!--Add navigation bar and breadcrumbs for ease of use-->
-    <nav class="navbar navbar-inverse navbar-expand-lg mb-lg-2 text-center justify-content-around">
+    <nav class="navbar navbar-inverse navbar-expand-lg mb-lg-2 text-center justify-content-around order-lg-2 rounded">
         <button class="navbar-toggler bg-secondary mt-2 mr-auto" type="button" data-toggle="collapse" data-target="#Navbar">
             <i class="fa fa-bars fa-xl"></i>
         </button>

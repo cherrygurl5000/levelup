@@ -1,8 +1,8 @@
 <footer class="mb-3">
     <div class="row justify-content-center" id="companyInfo">
-        <a href="../html/Home/Mission.html" title="Our Mission" class="pr-4 text-center">Our Mission</a>
-        <a href="../html/Home/WhoWeAre.html" title="Who We Are" class="pr-4 text-center">Who We Are</a>
-        <a href="../html/Home/Disclaimer.html" title="Disclaimer" class="pr-4 text-center">Disclaimer</a>
+        <a href="../html/Home/Mission.html" title="Our Mission" class="pr-4 py-2 px-lg-5 text-center">Our Mission</a>
+        <a href="../html/Home/WhoWeAre.php" title="Who We Are" class="pr-4 py-2 px-lg-5 text-center">Who We Are</a>
+        <a href="../html/Home/Disclaimer.html" title="Disclaimer" class="pr-4 py-2 px-lg-5 text-center">Disclaimer</a>
     </div>
     <div class="row justify-content-around">
         <div class="col align-self-center" id="pay">
@@ -17,5 +17,6 @@
         <a href="#" title="YouTube" class="pr-4 text-center"><i class="fab fa-youtube" id="yt"></i></a>
         <a href="#" title="InstaGram" class="pr-4 text-center"><i class="fab fa-instagram" id="ig"></i></a>
         <a href="#" title="Facebook" class="pr-4 text-center"><i class="fab fa-facebook-square" id="fb"></i></a>
+        <a href="#" title="Contact Us" class="pr-4 text-center"><i class="fa fa-address-card" id="cu"></i></a>
     </div>
 </footer>
