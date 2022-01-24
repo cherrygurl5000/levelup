@@ -1,40 +1,37 @@
 <?php 
   //Include the config file on each page
-  include_once "../../config/constants.php";
+  include_once("../../config/constants.php");
+  //Add in page values here (title, paypalID)
+  $title = "Who We Are";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <!-- Include the meta tags, Bootstrap and CSS links -->
-    <?php include "../headData.php"; ?>
 
-    <title>Who We Are</title>
+    <!-- Include the meta tags, Bootstrap and CSS links -->
+    <?php include_once("../../include/headData.php"); ?>
+
   </head>
 
   <body>
-    <!--Add navigation bar and breadcrumbs for ease of use-->
-    <?php include "../header.php"; ?>
 
     <!-- Add all page content inside this div -->
     <div class="container mx-auto">
-      <div class="row mt-5">
+    <!--Add navigation bar and breadcrumbs for ease of use-->
+    <?php include_once("../../include/header.php"); ?>
+
+      <div class="row mt-2 infoText">
         <h1>Who Are We...</h1>
       </div>
       <div id="description" class="row mb-3">
-        <h2 class="text-center">
+        <h2 class="text-center w-100 my-2 rounded">
           <em><b>We are LEVEL</b></em>
         </h2>
       </div>
 
-      <div class="row">
+      <div class="row my-2">
         <div class="col-12">
-          <p class="explode">
-            <img
-              id="logo"
-              src="../img/Explosion_Logo2.jpg"
-              alt="Level Brand Logo"
-              class="ml-2"
-            />
+          <p>
             We're here to Level Up your
             <span id="loves">LOVE</span>
             life, one session at a time!!!<br />
@@ -65,9 +62,10 @@
       </div>
 
       <!-- Include the footer information -->
-      <?php include "../footer.php"; ?>
+      <?php include_once("../../include/footer.php"); ?>
 
       <!-- Include all script tags -->
-      <?php include "../scriptTags.php"; ?>
+      <?php include_once("../../include/scriptTags.php"); ?>
+
   </body>
 </html>
