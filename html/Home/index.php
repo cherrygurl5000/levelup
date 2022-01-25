@@ -21,7 +21,7 @@
       <?php include_once("../../include/carousel.php"); ?>
       <!--Add all of the categories with an image link to their pages -->
       <div class="row justify-content-center text-center my-4">
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Bullets</h2>
           <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Bullets and Things" title="Bullets and Things" />
         </div>
@@ -56,6 +56,14 @@
         <div class="col-6 col-md-4 col-lg-2 mt-2">
           <h2 class="col-12">Lubes</h2>
           <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Lubes and Cleaners" title="Lubes and Cleaners" />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mt-2">
+          <h2 class="col-12">Everything</h2>
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Everything" title="Everything" />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mt-2">
+          <h2 class="col-12">On Sale</h2>
+          <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="On Sale" title="On Sale" />
         </div>
       </div>
 

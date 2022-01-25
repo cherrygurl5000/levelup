@@ -1,13 +1,27 @@
+//Imported fonts
+//@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat+Alternates&family=Audiowide&display=swap");
+
 //Level Up Variables
 $mainYellow: #f6ee08;
 $mainPurple: #e353e3;
+$background: linear-gradient(to top right, #f6ee08, #e353e3);
 
 /*h1 {
   color: $red;
 }*/
+body {
+  background: $background;
+  p {
+    font-size: larger;
+  }
+}
 nav {
   width: 100%;
-  background: linear-gradient(to right, $mainYellow, $mainPurple);
+  //background: linear-gradient(to left, $mainYellow, $mainPurple);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+  background-color: #ffffff40;
   li {
     //border-left: solid black 1px;
     width: fit-content;
@@ -15,12 +29,14 @@ nav {
 
     a {
       color: darkslategray;
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: bold;
       span {
         color: gray;
       }
     }
     ul {
-      background: linear-gradient(to left, #f6ee0872, #e353e372);
+      background: linear-gradient(to top right, #f6ee0872, #e353e372);
     }
   }
   li:nth-child(1) {
@@ -38,7 +54,8 @@ nav {
     }
     background: transparent;
     #Navbar {
-      background: linear-gradient(to bottom right, #f6ee08, #e353e3);
+      //background: linear-gradient(to top right, #f6ee08, #e353e3);
+      background: #f6ee0860;
       border-radius: 5%;
     }
   }
@@ -47,6 +64,12 @@ nav {
 .logoPic {
   max-width: 200px;
   border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  //Make the logo 150 px on smaller screens
+  @media (max-width: 991px) {
+    width: 100px;
+  }
 }
 #searchForm {
   button {
@@ -62,10 +85,96 @@ nav {
   width: 75%;
   margin-right: auto;
   margin-left: auto;
+  min-width: 300px;
   img {
     border: 10px gray outset;
   }
 }
 #popCat {
   background: green;
+}
+footer {
+  font-size: larger;
+  #companyInfo {
+    background-color: dimgray;
+    a {
+      color: white;
+      font-family: "Mochiy Pop P One", sans-serif;
+    }
+  }
+  /*#ig {
+    color: black;
+    -webkit-text-fill-color: transparent; /* Webkit Disable Fallback */
+
+  /* Text color gradient properties 
+    background: -webkit-linear-gradient(45deg, yellow, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }*/
+  #ig,
+  #cu {
+    color: black;
+    font-size: 50px;
+  }
+  #yt {
+    color: firebrick;
+  }
+  i {
+    font-size: 50px;
+  }
+}
+h2 {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: #4d4d4d;
+}
+#description {
+  h2 {
+    background-color: #9a0bc5;
+    color: #e2de03;
+    padding: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+}
+.infoText {
+  h1 {
+    background-color: #9a0bc5;
+    color: rgb(34, 51, 51);
+    padding: 5px;
+    font-family: "Mochiy Pop P One", sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+#loves {
+  color: #400040;
+  font-weight: bold;
+  background: #f6ee08;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+.introImg {
+  img {
+    max-height: 200px;
+  }
+}
+a {
+  img:hover {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+  }
+}
+.catToys {
+  div {
+    a {
+      img {
+        border: inset gray 3px;
+        max-width: 350px;
+        //border-radius: 16%;
+        padding: 0;
+      }
+    }
+  }
 }

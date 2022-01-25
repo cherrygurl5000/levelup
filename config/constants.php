@@ -3,4 +3,5 @@
     //session_start();
 
     //Create constants for site date
-    define('HOME', 'index.php');
+    //define('HOME', 'index.php');
+?>
