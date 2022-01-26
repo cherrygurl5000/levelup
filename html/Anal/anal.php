@@ -3,6 +3,8 @@
   include_once("../../config/constants.php");
   //Add in page values here (title, paypalID)
   $title = "Anal";
+  $catAdd = "../Anal/anal.php";
+  $category = "Anal";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

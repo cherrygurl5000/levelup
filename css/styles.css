@@ -182,4 +182,19 @@ a img:hover {
   max-width: 350px;
   padding: 0;
 }
+
+.crumbs {
+  list-style-type: none;
+  margin-left: 5px;
+}
+
+.crumbs li {
+  display: inline;
+  padding-right: 5px;
+  text-decoration: underline;
+}
+
+.crumbs a {
+  color: black;
+}
 /*# sourceMappingURL=styles.css.map */

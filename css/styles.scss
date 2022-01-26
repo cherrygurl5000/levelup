@@ -178,3 +178,15 @@ a {
     }
   }
 }
+.crumbs {
+  list-style-type: none;
+  margin-left: 5px;
+  li {
+    display: inline;
+    padding-right: 5px;
+    text-decoration: underline;
+  }
+  a {
+    color: black;
+  }
+}
