@@ -6,6 +6,9 @@
 $mainYellow: #f6ee08;
 $mainPurple: #e353e3;
 $background: linear-gradient(to top right, #f6ee08, #e353e3);
+//$hBackgrounds: #9a0bc5;
+$hBackgrounds: linear-gradient(#c159cb, #6e3173);
+//rgb(193, 89, 203);
 
 /*h1 {
   color: $red;
@@ -129,7 +132,7 @@ h2 {
 }
 #description {
   h2 {
-    background-color: #9a0bc5;
+    background: $hBackgrounds;
     color: #e2de03;
     padding: 5px;
     font-family: "Montserrat Alternates", sans-serif;
@@ -137,7 +140,7 @@ h2 {
 }
 .infoText {
   h1 {
-    background-color: #9a0bc5;
+    background: $hBackgrounds;
     color: rgb(34, 51, 51);
     padding: 5px;
     font-family: "Mochiy Pop P One", sans-serif;
@@ -146,6 +149,7 @@ h2 {
     border-radius: 0.25rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    text-align: center;
   }
 }
 #loves {
@@ -162,8 +166,12 @@ h2 {
 }
 a {
   img:hover {
-    transition: all 0.65s;
+    transition: all 1.5s;
     transform: rotateY(360deg);
+  }
+  img#ppNoHover {
+    transition: none;
+    transform: none;
   }
 }
 .catToys {
@@ -184,9 +192,38 @@ a {
   li {
     display: inline;
     padding-right: 5px;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
+
+  // li:last-child {
+  //   text-decoration: none;
+  // }
   a {
     color: black;
+  }
+}
+.fits {
+  background: $hBackgrounds;
+  color: rgb(226, 221, 2);
+  margin-top: 15px;
+}
+@media only screen and (max-width: 575px) {
+  h3.fits {
+    width: 100%;
+    text-align: center;
+  }
+}
+#price,
+#salePrice {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.cartBtn {
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.modal-header {
+  h2 {
+    color: white;
   }
 }

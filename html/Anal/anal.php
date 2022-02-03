@@ -1,7 +1,7 @@
 <?php 
   //Include the config file on each page
   include_once("../../config/constants.php");
-  //Add in page values here (title, paypalID)
+  //Add in page values here (title, paypalID, catAdd, category, prodAdd, Prods)
   $title = "Anal";
   $catAdd = "../Anal/anal.php";
   $category = "Anal";
@@ -35,8 +35,8 @@
         </div>
         <div class="row justify-content-center text-center my-4 catToys">
             <div class="col-6 col-md-4 col-lg-2 mt-2">
-                <a href="#">
-                    <h2 class="col-12">Bullets</h2>
+                <a href="../Anal/vibroPlay.php">
+                    <h2 class="col-12">Vibro Play</h2>
                     <img id="img1" class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Bullets and Things" title="Bullets and Things" />
                 </a>
             </div>
