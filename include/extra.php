@@ -20,6 +20,12 @@
       $paypalID = "QSJ667U7R4V5Y";
       include "./addToCart.php"; ?>
 
+/*Live API credentials*/
+Client ID: 
+ASVrQ-dbxEkUYxprB6xI6sE9MpFElmDa4A0HqBvT5LTFmM3vsocGdot_EjTvbJAes5NiC7rCB4u81xOe
+Secret: 
+EAZ-PTvHLF1m8zywpdbT-0EACZaQ1tnoOUZiUnriDzjA8wydPaPsXejFnXHjw5EIRjyxtdo8CXE7Uscn
+
 /*The Collection Vibes has a dropdown menu for it's add to cart button */
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">

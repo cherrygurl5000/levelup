@@ -12,7 +12,7 @@
 
     <!-- Include the meta tags, Bootstrap and CSS links -->
     <?php include_once("../../include/headData.php"); ?>
-
+    
   </head>
 
   <body>
@@ -36,33 +36,59 @@
         <div class="row justify-content-center text-center my-4 catToys">
             <div class="col-6 col-md-4 col-lg-2 mt-2">
                 <a href="../Anal/vibroPlay.php">
-                    <h2 class="col-12">Vibro Play</h2>
-                    <img id="img1" class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Bullets and Things" title="Bullets and Things" />
+                    <h2 class="col-12 text-"><small>Vibro Play</small></h2>
+                    <img id="img1" class="d-block w-100 col-12 mx-auto mb-2" src="../../img/Explosion_Logo2.jpg" alt="Bullets and Things" title="Bullets and Things" />
                 </a>
+                <h2 class="col-12">$20</h2>
+                <!-- Include the add to cart for each item -->
+                <?php 
+                    $paypalID = "YM55CBNCAHCC6";
+                    include("../../include/addToCart.php"); 
+                ?>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mt-2">
                 <a href="#">
                     <h2 class="col-12">Vibes</h2>
-                    <img class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Vibrators" title="Vibrators" />
+                    <img class="d-block w-100 col-12 mx-auto mb-2" src="../../img/Explosion_Logo2.jpg" alt="Vibrators" title="Vibrators" />
                 </a>
+                <!-- Include the add to cart for each item -->
+                <?php 
+                    $paypalID = "YM55CBNCAHCC6";
+                    include("../../include/addToCart.php"); 
+                ?>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mt-2">
                 <a href="#">
                     <h2 class="col-12">Dildos</h2>
-                    <img class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Dildos" title="Dildos" />
+                    <img class="d-block w-100 col-12 mx-auto mb-2" src="../../img/Explosion_Logo2.jpg" alt="Dildos" title="Dildos" />
                 </a>
+                <!-- Include the add to cart for each item -->
+                <?php 
+                    $paypalID = "YM55CBNCAHCC6";
+                    include("../../include/addToCart.php"); 
+                ?>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mt-2">
                 <a href="#">
                     <h2 class="col-12">Kegelers</h2>
                     <img class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Kegelers" title="Kegelers" />
                 </a>
+                <!-- Include the add to cart for each item -->
+                <?php 
+                    $paypalID = "YM55CBNCAHCC6";
+                    include("../../include/addToCart.php"); 
+                ?>
             </div>
             <div class="col-6 col-md-4 col-lg-2 mt-2">
                 <a href="#">
                     <h2 class="col-12">Kinky</h2>
-                    <img class="d-block w-100 col-12 mx-auto" src="../../img/Explosion_Logo2.jpg" alt="Foreplay and Kinky" title="Foreplay and Kinky" />
+                    <img class="d-block w-100 col-12 mx-auto mb-2" src="../../img/Explosion_Logo2.jpg" alt="Foreplay and Kinky" title="Foreplay and Kinky" />
                 </a>
+                <!-- Include the add to cart for each item -->
+                <?php 
+                    $paypalID = "YM55CBNCAHCC6";
+                    include("../../include/addToCart.php"); 
+                ?>
             </div>
         </div>
 
@@ -74,6 +100,8 @@
 
     <!-- Include all script tags -->
     <?php include_once("../../include/scriptTags.php"); ?>
+    
+    <script>$("input.addCart").attr("src", "../../img/Add_Cart.png");</script>
 
   </body>
 </html>

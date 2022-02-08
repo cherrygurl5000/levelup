@@ -1,5 +1,5 @@
 <div class="row mb-3 justify-content-center infoText">
-    <h1><?php echo $prodTitle; ?></h1>
+    <h1><?php echo $title; ?></h1>
 </div>
 
 <!-- Include the modal for the images -->
@@ -13,7 +13,7 @@
     <h1 id="salePrice" class="ml-4">$<?php echo $salePrice; ?></h1>
 </div>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center" id="cartBtn">
     <!-- Include the add to cart button -->
     <?php include("../../include/addToCart.php"); ?>
 </div>

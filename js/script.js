@@ -23,7 +23,7 @@ if (title != "Home") {
         `</li></a>
     `
     );
-    $("#addCart").attr("src", "../../img/Add_Cart.png");
+    $("input.addCart").attr("src", "../../img/Add_Cart.png");
   }
 }
 
