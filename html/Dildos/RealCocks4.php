@@ -3,16 +3,26 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Bachelorette/Bachelorette.php";
-  $category = "Bachelorette";
+  $title = "RealCocks # 4";
+  $catAdd = "../Dildos/Dildos.php";
+  $category = "Dildos";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Dildos/RealCocks4/";
+  $price = 40;
+  $prodDesc = "RealCocks #4 is the 8 inches you need in your life! With its firm inner layer and a 
+  life-like outer layer, there is no feeling quite like it. It contains a bendable internal rod that 
+  provides even more realism. It has a suction cup base to keep it in place during playtime. It’s 
+  also waterproof and the perfect edition to add to your collection.";
+  $specs = 'Length: 8" <br />
+  Insertable Length: 7.5" <br />
+  Girth: 6" at largest point <br />
+  Width: 2" at largest point <br />
+  Materials: TPE <br />
+  Special Features: Phthalate-Free, Suction Base, Textured Surface, Bendable Internal Rod, Realistic Feel, Waterproof <br />
+  Colors: Dark, Medium, Light
+  ';
+  $paypalID = "D95FQV8BBMPNL";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

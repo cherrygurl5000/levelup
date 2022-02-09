@@ -3,16 +3,28 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Bachelorette/Bachelorette.php";
-  $category = "Bachelorette";
+  $title = "Dual Stimulator  Dildo";
+  $catAdd = "../Dildos/Dildos.php";
+  $category = "Dildos";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Dildos/DualStimulator/";
+  $price = 21;
+  $salePrice = 17;
+  $prodDesc = "An excitingly lengthy dildo with tons of versatile flexibility, this Double Dong 
+  presents two lifelike tips for double penetration during solo play or partner fun. It can be 
+  bent, twisted, and angled to suit many positions and acts. Made from a phthalate-free PVC 
+  material, this dong cleans easily with warm, soapy water or a good toy cleaner. It is also 
+  compatible with water-based lubricants.";
+  $specs = 'Length: 11.75" <br/>
+  Insertable Length: 9.75” <br/>
+  Girth: 5" at largest point <br/>
+  Width: 1.6" at largest point <br/>
+  Materials: PVC <br/>
+  Special Features: Phthalate Free, Textured Surface <br/>
+  Color: Pink
+  ';
+  $paypalID = "53JQ4B7BTMFY4";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

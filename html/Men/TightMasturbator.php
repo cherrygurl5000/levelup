@@ -4,11 +4,11 @@
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
   $title = "";
-  $catAdd = "../Bachelorette/Bachelorette.php";
-  $category = "Bachelorette";
+  $catAdd = "../Men/Men.php";
+  $category = "Men";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
+  $imgLoc = "../../img/Products/Men/Vibro_Play/";
   $price = 0;
   $prodDesc = "";
   $specs = '';

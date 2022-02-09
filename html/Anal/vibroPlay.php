@@ -7,9 +7,8 @@
   $catAdd = "../Anal/anal.php";
   $category = "Anal";
   $prodAdd = "#";
-  $product = "Vibro Play";
-  $prodTitle = "Vibro Play Anal Toy";
-  $imgLoc = "../../img/Vibro_Play/";
+  $product = $title;
+  $imgLoc = "../../img/Products/Anal/Vibro_Play/";
   $price = 20;
   $prodDesc = "Looking for some anal inspiration? The Vibro Play probe is a unique tool to help 
     you add lots of intense sensation to playtime. The shape is thoughtful and 

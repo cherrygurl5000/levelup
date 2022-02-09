@@ -27,7 +27,7 @@
                 </li>  
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="starters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                        <span class="fas fa-fire-alt fa-sm"></span> Starters
+                        <span class="fas fa-fire-alt fa-sm"></span> Fire Starters
                     </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-item"><a href="../Kegel/Kegel.php">
@@ -35,6 +35,9 @@
                         </li>
                         <li class="dropdown-item"><a href="../Foreplay/Foreplay.php">
                             <span class="fas fa-user-astronaut fa-md"></span> Foreplay & Kinky</a>
+                        </li>
+                        <li class="dropdown-item"><a href="../Pheromones/Pheromones.php">
+                            <span class="fas fa-air-freshener fa-md"></span> Pheromones</a>
                         </li>
                         <li class="dropdown-item"><a href="../Bachelorette/Bachelorette.php">
                             <span class="fas fa-cocktail fa-sm"></span> Bachelorette</a>

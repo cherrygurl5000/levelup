@@ -3,16 +3,26 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Bachelorette/Bachelorette.php";
-  $category = "Bachelorette";
+  $title = "X5 Hard On";
+  $catAdd = "../Dildos/Dildos.php";
+  $category = "Dildos";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Dildos/X5HardOn/";
+  $price = 30;
+  $prodDesc = "The X5 Hard On is a realistic dildo designed by Blush Novelties. It looks and feels 
+  like the real thing, and the suction cup base makes it harness compatible. Feel free to suction the 
+  Hard On to any flat surface and enjoy the stability. It warms to the touch and provides an amazing 
+  experience that you can always share with a partner!";
+  $specs = 'Length: 8.5" <br />
+  Insertable Length: 6.75" <br />
+  Girth: 5.6" at largest point <br />
+  Width: 1.8" at largest point <br />
+  Materials: Silicone <br />
+  Special Features: Phthalate-Free, Suction Base, Textured Surface, Realistic Feel, Waterproof <br />
+  Colors: Brown, Beige
+  ';
+  $paypalID = "A7GUUFB73YYSE";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
