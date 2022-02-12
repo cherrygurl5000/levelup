@@ -3,16 +3,21 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Pecker Party Tiara";
   $catAdd = "../Bachelorette/Bachelorette.php";
   $category = "Bachelorette";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Bachelorette/PeckerTiara/";
+  $price = 14;
+  $salePrice = 10;
+  $prodDesc = "Crown the bachelorette with the pecker Party Tiara at the start of 
+  the party, and there'll be no mistake about who the bride to be is! This 
+  beautiful headpiece has pink fur, pink gems, and the token pink peckers standing 
+  proud across the front. The comb end fits easily onto any hairstyle, and the 
+  whole thing is nice and lightweight so she can wear it all night long.";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "TV6X7JPFD8DML";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +28,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

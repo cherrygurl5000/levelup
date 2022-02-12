@@ -3,16 +3,20 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Pure Instinct Pheromone Body Spray (Him)";
   $catAdd = "../Pheromones/Pheromones.php";
   $category = "Pheromones";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Pheromones/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Products/Pheromones/SprayHim/";
+  $price = 16;
+  $prodDesc = "Become a magnetic attraction by using this Pheromone-infused body spray 
+  by Pure Instinct. Fortified with Jojoba and Vitamin E, True Blue will have you 
+  fighting them off with a stick. ";
+  $specs = 'Size: 6 fl oz <br />
+  Special Features: Pheromone-Infused, Contains Jojoba and Vitamin E
+  ';
+  $paypalID = "4BJZXDKFGV3VQ";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

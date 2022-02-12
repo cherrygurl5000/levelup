@@ -26,67 +26,67 @@
       <!--Add all of the categories with an image link to their pages -->
       <div class="row justify-content-center text-center my-4">
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Bullets/Bullets.php">
             <h2 class="col-12">Bullets</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Bullets and Things" title="Bullets and Things" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Vibes/Vibes.php">
             <h2 class="col-12">Vibes</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Vibrators" title="Vibrators" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Dildos/Dildos.php">
             <h2 class="col-12">Dildos</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Dildos" title="Dildos" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Kegelers/Kegelers.php">
             <h2 class="col-12">Kegelers</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Kegelers" title="Kegelers" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Foreplay/Foreplay.php">
             <h2 class="col-12">Kinky</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Foreplay and Kinky" title="Foreplay and Kinky" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Bachelorette/Bachelorette.php">
             <h2 class="col-12">Bachelorette</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Bachelorette" title="Bachelorette" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="../Anal/anal.php">
+          <a href="../Anal/Anal.php">
             <h2 class="col-12">Anal</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Anal" title="Anal" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Men/Men.php">
             <h2 class="col-12">Men</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Men" title="For the Men" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Lubes/Lubes.php">
             <h2 class="col-12">Lubes</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Lubes and Cleaners" title="Lubes and Cleaners" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Home/Everything.php">
             <h2 class="col-12">Everything</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="Everything" title="Everything" />
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-2 mt-2">
-          <a href="#">
+          <a href="../Home/Sale.php">
             <h2 class="col-12">On Sale</h2>
             <img class="d-block w-100 col-12 mx-auto rounded-circle" src="../../img/Explosion_Logo2.jpg" alt="On Sale" title="On Sale" />
           </a>

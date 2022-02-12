@@ -25,7 +25,7 @@
 <div class="row mx-2">
     <p><?php echo $prodDesc; ?></p>
 </div>
-<div class="row justify-content-center justify-content-sm-start">
+<div class="row justify-content-center justify-content-sm-start" id="specs">
     <h3 class="p-2 rounded fits">Specifications</h3>
 </div>
 <div class="row mx-2 mb-2">

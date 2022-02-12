@@ -3,16 +3,23 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Fantasy/Fantasy.php";
-  $category = "Fantasy";
+  $title = "Tantric Sex Cards";
+  $catAdd = "../Foreplay/Foreplay.php";
+  $category = "Foreplay";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Fantasy/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Foreplay/TantricCards/";
+  $price = 10;
+  $prodDesc = "Have you ever wanted to experience a more powerful orgasm? Well with 
+  100,000 possible paths to powerful orgasms, Tantric Sex Cards are just right for 
+  you! The methods within these cards allow you and your partner to connect your 
+  minds, bodies and souls by exploring tantric orgasm delay techniques. Create your 
+  optimal fantasy by incorporating your favorite practices into future love-making 
+  sessions. These cards aid in your use of mood, emotional connection, tantra 
+  practices, foreplay, and sexual positions to push you both to more powerful 
+  orgasms. Remember, great techniques lead to great sex!";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "GRCR6PF4UZDZU";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +30,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

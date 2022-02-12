@@ -8,8 +8,9 @@
   $category = "Anal";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Anal/Vibro_Play/";
-  $price = 20;
+  $imgLoc = "../../img/Products/Anal/VibroPlay/";
+  $price = 10;
+  $salePrice = 7;
   $prodDesc = "Looking for some anal inspiration? The Vibro Play probe is a unique tool to help 
     you add lots of intense sensation to playtime. The shape is thoughtful and 
     functional, with a super slim head for easy and comfortable insertion, some 

@@ -3,16 +3,20 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Pecker Whistle Necklace";
   $catAdd = "../Bachelorette/Bachelorette.php";
   $category = "Bachelorette";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Bachelorette/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Bachelorette/PeckerWhistle/";
+  $price = 6;
+  $salePrice = 4;
+  $prodDesc = "Keep track of the girls on the bachelorette party night. This cheeky, 
+  Pecker Whistle Necklace packs some unmistakable volume in its teeny tiny shape! 
+  It hangs securely around the neck of the bride-to-be or party boss and features 
+  just enough detail for the perfect amount of prank potential (1 included).";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "PPV7Q3ARX978A";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +27,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

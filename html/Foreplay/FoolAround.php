@@ -3,16 +3,23 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Fantasy/Fantasy.php";
-  $category = "Fantasy";
+  $title = "Let's Fool Around Dice Game";
+  $catAdd = "../Foreplay/Foreplay.php";
+  $category = "Foreplay";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Fantasy/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Foreplay/FoolAround/";
+  $price = 13;
+  $prodDesc = "For sexually adventurous groups of two or more, the Let's Fool Around 
+  Dice will certainly get the sexy times rolling. The core die is the silver, which 
+  spells out a teasing act, all players (you can split into teams if there's a big 
+  group) choose a body part die to represent themselves. Players take turns rolling 
+  all the dice in play, with the silver determining what action needs to be carried 
+  out (lick, blow on, tickle etc.), the roller picks the color die and therefore, 
+  the player they want to perform it on/with. With combinations like Kiss Neck, 
+  Tickle Bottom and Caress Crotch, who knows where the night will lead?";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "B86VEN88Z7BCY";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +30,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

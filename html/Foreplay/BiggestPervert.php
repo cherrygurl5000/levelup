@@ -3,16 +3,20 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Fantasy/Fantasy.php";
-  $category = "Fantasy";
+  $title = "Who is the Biggest Pervert?";
+  $catAdd = "../Foreplay/Foreplay.php";
+  $category = "Foreplay";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Fantasy/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Foreplay/BiggestPervert/";
+  $price = 11;
+  $prodDesc = "Ever wondered who the biggest perv was in your group of friends? Well 
+  now you can easily find out. Who is the Biggest Pervert? is a drinking game where 
+  players answer questions about the naughty things they’ve done by drinking. Players 
+  can easily join or leave the game, which makes this a very flexible and versatile 
+  party game. The winner (or loser) is the biggest pervert! You decide.";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "J2WDGZZ5YRJLL";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +27,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

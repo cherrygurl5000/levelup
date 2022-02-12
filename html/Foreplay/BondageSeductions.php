@@ -3,16 +3,21 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Fantasy/Fantasy.php";
-  $category = "Fantasy";
+  $title = "Bondage Seductions";
+  $catAdd = "../Foreplay/Foreplay.php";
+  $category = "Foreplay";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Fantasy/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Foreplay/BondageSeductions/";
+  $price = 23;
+  $prodDesc = "Safely explore the world of restraints, dominance, pleasurable pain, 
+  and submissiveness with Bondage Seductions. Designed to be played as a game or for 
+  you to simply use one card for each adventure, this game includes 36 Bondage 
+  Seductions Cards, 2 silky ties, 2 dice, 1 blindfold mask, 1 rubber whip, and game 
+  rules. This game provides everything you need to explore a wilder side in a safe 
+  environment.";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "RUV26NCRPCHN4";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +28,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

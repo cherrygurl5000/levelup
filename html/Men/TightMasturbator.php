@@ -3,16 +3,30 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Tight Masturbator";
   $catAdd = "../Men/Men.php";
   $category = "Men";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Men/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Products/Men/TightMasturbator/";
+  $price = 15;
+  $salePrice = 12;
+  $prodDesc = "Get the most (and best!) mileage from your anime fantasies with 
+  Sakura's Tight Masturbator. In sparkly pink, this soft sleeve features a snug, 
+  non-detailed entrance, a very lifelike inner texture, and a closed-ended design 
+  that naturally creates lots of suction. This masturbator is perfectly 
+  squeezable which allows you or your partner to easily customize just how tight 
+  Sakura grips your penis. Use water-based lubes to make it slippery. It can 
+  easily be cleaned with warm, soapy water or a good toy cleaner. <br/><br/>
+
+  <em>*Measures approximately 6”/15.24cm in total length</em>
+  ";
+  $specs = 'Length: 6" <br/>
+  Orifice: Neutral <br/>
+  Special Features: Closed End <br/>
+  Color: Pink
+  ';
+  $paypalID = "VJSLS3SA7WQRE";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

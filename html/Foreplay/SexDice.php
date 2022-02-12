@@ -3,16 +3,20 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
-  $catAdd = "../Fantasy/Fantasy.php";
-  $category = "Fantasy";
+  $title = "Sex! Dice Game";
+  $catAdd = "../Foreplay/Foreplay.php";
+  $category = "Foreplay";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Fantasy/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
+  $imgLoc = "../../img/Products/Foreplay/SexDice/";
+  $price = 11;
+  $prodDesc = "Why not play a game where every roll is a winner? This is the perfect 
+  game for two passionate adults looking to have an interesting evening. The red die 
+  instructs you on what to do, while the pink die determines how long you do it. The 
+  roller decides who assumes each position. The only thing left for you to do is roll 
+  the dice, and see who wins.";
   $specs = '';
-  $paypalID = "";
+  $paypalID = "7RC8RL6TBSTAN";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -23,6 +27,11 @@
 
     <!-- Include the code for the darker colored carousel icons -->
     <link rel="stylesheet" type="text/css" href="../../css/carouselIcons.css" />
+    <style type="text/css">
+      #specs {
+        display: none;
+      }
+    </style>
 
   </head>
 

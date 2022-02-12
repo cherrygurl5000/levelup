@@ -3,16 +3,25 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Silicone Snatch";
   $catAdd = "../Men/Men.php";
   $category = "Men";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Men/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Products/Men/SiliconeSnatch/";
+  $price = 10;
+  $salePrice = 6;
+  $prodDesc = "Petite, discreet and travel friendly, the Silicone Snatch is a great 
+  little masturbator that can go anywhere. Made from soft, stretchy silicone, this 
+  toy is designed realistically, with soft lips and an extra tight entry. Squeeze 
+  the outer tunnel to bring the inner walls as close as you’d like in order to feel 
+  the subtle, ribbed texture that mimics the real thing. A good water-based lube 
+  keeps the material strong while keeping you comfortable and pleased.";
+  $specs = 'Orifice: Vagina <br/>
+  Length: 5” <br/>
+  Special Features: Open Ended
+  ';
+  $paypalID = "7KKEJ38PPWCJ2";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

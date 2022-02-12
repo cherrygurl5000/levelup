@@ -3,16 +3,27 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Beat It Out Shower Masturbation Gel";
   $catAdd = "../Men/Men.php";
   $category = "Men";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Products/Men/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Products/Men/ShowerGel/";
+  $price = 22;
+  $salePrice = 15;
+  $prodDesc = "Beat It Out Masturbation Gel comes to showers everywhere in a unique 
+  hanging bottle that keeps friction-free hand job help at the ready. Thick and 
+  viscous, this gel stays put without dripping. Control the feel by adding a little 
+  water or a lot! <br />
+
+  Beat It Out is safe for use with all toys and condoms. It’s also odorless, 
+  greaseless, and non-staining.
+  ";
+  $specs = 'Size: 8oz <br />
+  Flavor: Unflavored <br />
+  Special Features: Masturbation Lube, Unscented
+  ';
+  $paypalID = "PS5PRCBW9W8K6";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

@@ -3,16 +3,20 @@
   include_once("../../config/constants.php");
   /*Add in page values here (title, catAdd, category, prodAdd, product, prodTitle, imgLoc,
   price, salePrice, prodDesc, specs, paypalID)*/
-  $title = "";
+  $title = "Pure Instinct Pheromone Massage Lotion (Him)";
   $catAdd = "../Pheromones/Pheromones.php";
   $category = "Pheromones";
   $prodAdd = "#";
   $product = $title;
-  $imgLoc = "../../img/Pheromones/Vibro_Play/";
-  $price = 0;
-  $prodDesc = "";
-  $specs = '';
-  $paypalID = "";
+  $imgLoc = "../../img/Products/Pheromones/LotionHim/";
+  $price = 16;
+  $prodDesc = "Make your next massage a little more sensual by adding True Blue 
+  Pheromone-infused Massage Lotion. With Sweet Almond Oil, this lotion not only 
+  ignites your senses, it also keeps you or your partner extra moisturized. ";
+  $specs = 'Size: 8 fl oz <br />
+  Special Features: Pheromone-Infused, Contains Sweet Almond Oil
+  ';
+  $paypalID = "QG8HY5UU6R752";
 ?>
 <!DOCTYPE html>
 <html lang="en-US">

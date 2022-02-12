@@ -71,7 +71,7 @@
     
 </script>
 
-<div class="row" id="gallery" data-toggle="modal" data-target="#the_modal"></div>
+<div class="row justify-content-center" id="gallery" data-toggle="modal" data-target="#the_modal"></div>
 
 <!--The modal for the product images -->
 <div class="modal fade" id="the_modal" tabindex="-1" role="dialog" aria-hidden="true">
